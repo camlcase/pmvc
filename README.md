@@ -14,4 +14,4 @@ To run pMVC - as is - on Apache, create a new folder named 'pmvc' in your server
 ### Microsoft IIS
 Create a new instance in IIS and copy all files from the src repo folder. You will need to remove the APPLICATION_URI configuration setting in the config.php or change the path to just a forward slash / - if running in server root.
 
-*Delete /.htaccess and /lib/.htaccess files as they are needed on Apache only*
+*Delete /.htaccess and /lib/.htaccess files as they are needed on Apache only.*
