@@ -15,3 +15,6 @@ To run pMVC - as is - on Apache, create a new folder named 'pmvc' in your server
 Create a new instance in IIS and copy all files from the src repo folder. You will need to remove the APPLICATION_URI configuration setting in the config.php or change the path to just a forward slash / - if running in server root. This setup works on Azure as well.
 
 *Delete /.htaccess and /lib/.htaccess files as they are needed on Apache only.*
+
+## Demo site
+[Here](https://github.com/camlcase/pmvc-demo "pMVC demo site on GitHub") you´ll find a demo site built with pMVC, MySQL/MariaDB and Bootstrap.
